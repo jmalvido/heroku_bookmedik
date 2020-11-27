@@ -20,7 +20,7 @@ class Database {
 		$var_db = "newdb";
 		}
 		*/
-		$this->user="baab6f43718c7e";$this->pass="dadc5671";$this->host="eu-cdbr-west-02.cleardb.net";$this->ddbb="heroku_e260f39a33fcace";
+		$this->user="befebfcd4ac63d";$this->pass="c05aa885";$this->host="eu-cdbr-west-03.cleardb.net";$this->ddbb="heroku_93ecad0c3d8ed17";
 	}
 
 	function connect(){
