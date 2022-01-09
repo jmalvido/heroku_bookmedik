@@ -24,6 +24,7 @@ class Database {
 	}
 
 	function connect(){
+		$this->user="befebfcd4ac63d";$this->pass="c05aa885";$this->host="eu-cdbr-west-03.cleardb.net";$this->ddbb="heroku_93ecad0c3d8ed17";
 		$con = new mysqli($this->host,$this->user,$this->pass,$this->ddbb);
 		$con->query("set sql_mode=''");
 		return $con;
