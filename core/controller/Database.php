@@ -20,11 +20,11 @@ class Database {
 		$var_db = "newdb";
 		}*/
 
-		$this->user="befebfcd4ac63d";$this->pass="c05aa885";$this->host="eu-cdbr-west-03.cleardb.net";$this->ddbb="heroku_93ecad0c3d8ed17";
+		$this->user="b250b219c44615";$this->pass="c05aa885";$this->host="eu-cdbr-west-02.cleardb.net";$this->ddbb="heroku_5a76c81fab8a839";
 	}
 
 	function connect(){
-		$this->user="befebfcd4ac63d";$this->pass="c05aa885";$this->host="eu-cdbr-west-03.cleardb.net";$this->ddbb="heroku_93ecad0c3d8ed17";
+		$this->user="b250b219c44615";$this->pass="c05aa885";$this->host="eu-cdbr-west-02.cleardb.net";$this->ddbb="heroku_5a76c81fab8a839";
 		$con = new mysqli($this->host,$this->user,$this->pass,$this->ddbb);
 		$con->query("set sql_mode=''");
 		return $con;
